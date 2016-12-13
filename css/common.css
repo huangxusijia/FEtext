@@ -17,41 +17,52 @@ body
 
 .public-header2
 {
+  z-index:3;
    height: 102px;
    width: 1200px;
    border-bottom:2px solid #c6a661;
    margin: 0 auto;
    background: #e8c271;
 }
+
 .public-header2 .header-logo
 {
-
+  position: absolute;  z-index:3;
   margin-top: 34px;
   width: 278px;
   height: 35px;
-    float: left;
+  float: left;
   background: url("../ima/header-logo.png");
 }
+.public-header2 .header-gradient
+{
+  position: absolute;
+  width:304px;
+  height: 102px;
 
+  background: url("../ima/header.png");
+}
 .public-header2 .header-nav
 {
-
+ position: absolute; z-index:3;
   height: 0;
-  margin-top: 50px;
-  width: 554px;
-  height: 54px;
+  margin-top: 64px;
+  margin-left: 376px;
+  width: 552px;
+  height: 52px;
   float: right;
   font-size: 30px;
   background: url("../ima/header-nav.png");
 
 }
+
 .public-header2 .header-nav .item
 {
 
   margin-top: 10px;
   margin-left: 44px;
   list-style: none;
-    float: left;
+  float: left;
 
 }
 .public-header2 .header-nav a
