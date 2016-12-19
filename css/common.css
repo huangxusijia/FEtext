@@ -1,12 +1,9 @@
-
-body
-{
+body{
   background: #f6f0e2;
 }
 
 
-.public-header1
-{
+.public-header1{
    height: 10px;
    width: 1200px;
    border-bottom:2px solid #968051;
@@ -15,35 +12,36 @@ body
 
 }
 
-.public-header2
-{
+.public-header2{
   z-index:3;
-   height: 102px;
+   height: 104px;
    width: 1200px;
    border-bottom:2px solid #c6a661;
    margin: 0 auto;
    background: #e8c271;
 }
 
-.public-header2 .header-logo
-{
-  position: absolute;  z-index:3;
-  margin-top: 34px;
-  width: 278px;
-  height: 35px;
-  float: left;
-  background: url("../ima/header-logo.png");
+.public-header2 .header-logo{
+	position: absolute;
+	z-index:3;
+	margin-top: 34px;
+	width: 278px;
+	height: 35px;
+	float: left;
+	background-image:url(../ima/header-logo.png);
+	left: 1px;
+	top: 2px;
 }
-.public-header2 .header-gradient
-{
+
+.public-header2 .header-gradient{
   position: absolute;
   width:304px;
   height: 102px;
 
   background: url("../ima/header.png");
 }
-.public-header2 .header-nav
-{
+
+.public-header2 .header-nav{
  position: absolute; z-index:3;
   height: 0;
   margin-top: 64px;
@@ -53,55 +51,47 @@ body
   float: right;
   font-size: 30px;
   background: url("../ima/header-nav.png");
-
 }
 
-.public-header2 .header-nav .item
-{
-
+.public-header2 .header-nav .item{
   margin-top: 10px;
   margin-left: 44px;
   list-style: none;
   float: left;
-
 }
-.public-header2 .header-nav a
-{
+
+.public-header2 .header-nav a{
     line-height: 30px;
     color:#FFFFFF;
 }
 
-.public-header2 .header-nav ul
-{
+.public-header2 .header-nav ul{
    list-style: none;
 }
-.public-container
-{
+.public-container{
   position:relative;
   margin-left:auto;
   margin-right:auto;
   width: 942px;
 }
 
-.public-footer1
-{
+.public-footer1{
   height: 252px;
   border-bottom:2px solid #918161;
   background: #d8c293;
 
 }
-.public-footer1 .footer-img1
-{
+
+.public-footer1 .footer-img1{
   position: absolute;
-  margin-top: 24px;
+  margin-top: 26px;
   margin-left:5px;
   width: 300px;
   height: 206px;
   background: url("../ima/footer-ima1.png");
 }
 
-.public-footer1 .footer-img2
-{
+.public-footer1 .footer-img2{
   position: absolute;
   margin-top: 19px;
   margin-left:320px;
@@ -109,8 +99,8 @@ body
   height: 212px;
   background: url("../ima/footer-ima2.png");
 }
-.public-footer1 .footer-img3
-{
+
+.public-footer1 .footer-img3{
   position: absolute;
   margin-top: 24px;
   margin-left:636px;
@@ -118,17 +108,16 @@ body
   height: 206px;
   background: url("../ima/footer-ima3.png");
 }
-.public-footer2
-{
+
+.public-footer2{
   height: 40px;
   background: #b3a078;
   position: relative;
 }
 
-.public-footer2 .footer-logo
-{
+.public-footer2 .footer-logo {
   width: 139px;
-  height: 19px;
+  height: 20px;
   background: url("../ima/footer-logo.png");
   margin: auto;
   position: absolute;

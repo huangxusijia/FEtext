@@ -1,32 +1,28 @@
 
-body,div,dl,dt,ul,li,h1,h2,h3,a,p,textarea
-{
+body,div,dl,dt,ul,li,h1,h2,h3,a,p,textarea{
   margin: 0;
   padding: 0;
   font-family:"Microsoft Yahei";
   line-height：0;
 }
 
-a
-{
+a{
   text-decoration: none;
   display:block;
 }
-p
-{
+p{
   display:block;
-
 }
-img
-{
+img{
   border: none;
   display: block;
 }
+
 .clearfloat{
   zoom:1;
 }
-.clearfloat:after
-{
+
+.clearfloat:after{
   display: block;
   clear: both;
   content: "";

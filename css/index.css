@@ -1,22 +1,20 @@
-
-.index-banner
-{
+.index-banner{
   height: 1068px;
   border-left: 2px solid #ded6c4;
   border-right: 2px solid #ded6c4;
   background: #ffffff;
 
 }
-.index-banner .index-banner-header
-{
+
+.index-banner .index-banner-header{
   margin-left: 20px;
   width: 900px;
   height: 334px;
   border-bottom:2px solid #e7e1d5;
 
 }
-.index-banner .index-banner-bg
-{
+
+.index-banner .index-banner-bg{
   position: absolute;
   margin-top: 30px;
   height: 280px;
@@ -24,8 +22,8 @@
   background: url("../ima/featured-bg.png")
 
 }
-.index-banner .index-banner-bg .index-banner-holder
-{
+
+.index-banner .index-banner-bg .index-banner-holder{
   position: absolute;
   margin-left: 5px;
   margin-top: 8px;
@@ -33,8 +31,8 @@
   height: 260px;
   background: url("../ima/holder.png");
 }
-.index-banner .index-banner-bg .index-banner-textbg
-{
+
+.index-banner .index-banner-bg .index-banner-textbg{
   margin-left: 602px;
   margin-top: 8px;
   width: 280px;
@@ -42,36 +40,36 @@
   background: url("../ima/textbg.png");
 
 }
-.index-banner .arrow-l
-{
+
+.index-banner .arrow-l{
   position: absolute; z-index:3;
   margin-top: 152px;
   margin-left: 6px;
   width: 50px;
   height: 40px;
 }
-.index-banner .arrow-r
-{
+
+.index-banner .arrow-r{
   position: absolute; z-index:3;
   margin-top: 148px;
   margin-left: 550px;
   width: 70px;
   height: 80px;
 }
-.index-banner .index-banner-bg .index-banner-ima
-{
+
+.index-banner .index-banner-bg .index-banner-ima{
   margin-left: 5px;
   margin-top: 2px;
 
 }
-.index-banner .index-banner-mbody
-{
+
+.index-banner .index-banner-mbody{
   position:relative;
   height: 734px;
   float: left;
 }
-.index-banner-mbody .index-mbody1
-{
+
+.index-banner-mbody .index-mbody1{  
   position: relative;
   margin-top: 24px;
   margin-left: 20px;
@@ -80,23 +78,22 @@
 
 }
 
-.index-mbody1 .index-mbody-ima1
-{
+.index-mbody1 .index-mbody-ima1{
   position:relative;
   width: 200px;
   height: 200px;
   float: left;
 }
-.index-banner-mbody .index-mbody1 .index-mbody1-text
-{
+
+.index-banner-mbody .index-mbody1 .index-mbody1-text{
   position: absolute;
     margin-left: 228px;
   width: 380px;
   height: 200px;
 
 }
-.index-banner-mbody .index-mbody2
-{
+
+.index-banner-mbody .index-mbody2{
   position:relative;
   margin-left: 20px;
   margin-top: 40px;
@@ -104,8 +101,8 @@
   height: 200px;
 
 }
- .index-banner-mbody .index-mbody2 .index-mbody-ima2
-{
+
+ .index-banner-mbody .index-mbody2 .index-mbody-ima2{
   position: absolute;
   width: 200px;
   height: 200px;
@@ -113,16 +110,16 @@
   background: url("../ima/banner-ima2.png");
 
 }
-.index-banner-mbody .index-mbody2 .index-mbody2-text
-{
+
+.index-banner-mbody .index-mbody2 .index-mbody2-text{
   position: absolute;;
   margin-left: 228px;
   width: 380px;
   height: 200px;
 
 }
-.index-banner-mbody .index-mbody3
-{
+
+.index-banner-mbody .index-mbody3{
   position: absolute;
   margin-left: 20px;
   margin-top: 40px;
@@ -136,16 +133,16 @@
   width: 200px;
   height: 200px;
 }
-.index-banner-mbody .index-mbody3 .index-mbody3-text
-{
+
+.index-banner-mbody .index-mbody3 .index-mbody3-text{
   position: absolute;
   margin-left: 228px;
   width: 380px;
   height: 200px;
 
 }
-.index-banner .index-banner-app
-{
+
+.index-banner .index-banner-app{
  position: absolute;
  margin-left: 630px;
  margin-top: 14px;
@@ -153,13 +150,12 @@
  height: 710px;
  border-left: 2px solid #e7e1d5;
 }
-.index-banner-app .search
-{
+
+.index-banner-app .search{
   height: 100px;
   margin-left: 18px;
 }
-.index-banner-app .search .form-wrapper input
-{
+.index-banner-app .search .form-wrapper input{
     width: 270px;
     height: 30px;
     border:1px solid #e0dace;
@@ -168,24 +164,24 @@
     font-size: 30px;
 
 }
-.index-banner-app .directory
-{
-  margin-left: 18px;
+
+.index-banner-app .directory{
+  margin-left: 19px;
 
 }
-.index-banner-app .directory ul
-{
+
+.index-banner-app .directory ul{
   height: 182px;
   padding-left: 16px;
   line-height: 2;
 }
-.index-banner-app .directory li
-{
+
+.index-banner-app .directory li{
   color: #6e6758;
 
 }
-.index-banner-app .directory a
-{
+
+.index-banner-app .directory a{
   font-size: 18px;
   color: #6e6758;
   font-family:"黑体";
